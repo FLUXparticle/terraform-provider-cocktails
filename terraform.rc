@@ -1,0 +1,7 @@
+# C:\Users\<deinName>\AppData\Roaming\terraform.rc
+provider_installation {
+  dev_overrides {
+    "registry.terraform.io/hashicorp/cocktails" = "/path/to/provider/dir"
+  }
+  direct {}
+}
